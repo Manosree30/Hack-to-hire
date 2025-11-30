@@ -82,7 +82,10 @@ const RESPONSE_SCHEMA: Schema = {
 
 export const analyzeContent = async (text: string, imageBase64?: string, imageMimeType?: string): Promise<AnalysisResult> => {
   try {
-    const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+    const ai = new GoogleGenAI({
+      apiKey: import.meta.env.VITE_GEMINI_API_KEY
+    });
+
     
     // Using gemini-2.5-flash for fast and efficient classification
     const modelId = "gemini-2.5-flash";
