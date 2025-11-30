@@ -1,7 +1,9 @@
 ## AI-DRIVE — Scam Detection App
 
 AI-DRIVE is an AI-powered system designed to detect scams before you click, pay, or respond. It gives real-time warnings to protect users from phishing, UPI scams, fake job offers, OTP scams, and more.
+ 
 
+APP LINK-https://scam-earlydetection.netlify.app/
 ## Features
 
 Real-time scam detection for text, URLs, or images (via OCR)
